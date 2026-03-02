@@ -1,4 +1,4 @@
-# IIT HYDERABAD Insurance Plan Converter
+# PDFs to FHIR InsurancePlan bundles Converter
 
 This repository contains two main components:
 
