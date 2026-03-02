@@ -1,0 +1,117 @@
+{
+  "organization": "Edelweiss General Insurance Company LTD",
+  "insurer_id": "159",
+  "uin": "EDLPAGP22174V012122",
+  "plan_name": "Edelweiss Group Janata Personal Accident Policy",
+  "plan_type": "group",
+  "coverage_type": "accident",
+  "sum_insured": "",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "155255",
+    "email": "bimalokpal.bhubaneswar@cioins.co.in",
+    "website": "www.edelweissinsurance.com"
+  },
+  "benefits": [
+    {
+      "name": "Death Cover",
+      "category": "other",
+      "description": "We will pay 100% of the Sum Insured as stated in the Policy schedule/ Certificate of Insurance in the event of Accidental Bodily Injury causing the Insured’s death within 12 months of the Accidental Bodily Injury being sustained.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Additional Benefit under Death Cover Disappearance",
+      "category": "other",
+      "description": "We shall be liable to be pay under this benefit, if the Insured Member’s full body cannot be found within the period of 12 months from the date of disappearance in which such Insured Member was known to have been travelling as a fare paying passenger or in any event arising as a result of Act of God Perils during the Policy Period, where it is reasonable to believe that such Insured Member has died as a result of an Accidental Injury.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Permanent Total Disability",
+      "category": "other",
+      "description": "In the event of Accidental Bodily Injury causing the Insured’s Permanent Total Disability within 12 months of the Accidental Bodily Injury being sustained, We will pay 100% of the Sum Insured as stated in the table below.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Permanent Partial Disability",
+      "category": "other",
+      "description": "In the event of Accidental Bodily Injury causing the total and irrecoverable loss of sight of one eye, or total and irrecoverable loss of use of a hand or a foot, We will pay Percentage of the Sum Insured stated in the below table.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "War and Terrorism",
+      "description": "Any claim for death or disablement (whether of a permanent nature or of a temporary nature), hospitalization of the insured person, directly or indirectly due to War (whether declared or not) and war like occurrence or invasion, acts of foreign enemies, hostilities, civil war, rebellion.",
+      "category": "permanent",
+      "irdai_code": "Excl04",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Self-Injury",
+      "description": "Any claim for death, disablement (whether of a permanent nature or of a temporary nature), hospitalization of Insured Person from intentional self-injury unless in self-defense or to save life, suicide or attempted suicide.",
+      "category": "permanent",
+      "irdai_code": "Excl07",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Intoxicants",
+      "description": "Any claim for death, disablement (whether of a permanent nature or of a temporary nature), hospitalization of Insured Person whilst under the influence of intoxicating liquor or drugs or other intoxicants except where the insured is not directly responsible for the injury / accident though under influence of intoxication.",
+      "category": "permanent",
+      "irdai_code": "Excl08",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Breach of Law",
+      "description": "Any claim resulting or arising from or any consequential loss directly or indirectly caused by or contributed to or arising from the Insured Person committing any breach of law with criminal intent.",
+      "category": "permanent",
+      "irdai_code": "Excl05",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Pre-Existing Condition",
+      "description": "Pre-Existing Condition- Any accidental bodily injury or disablement arising out of or contributed by or traceable to any disability existing on the date of commencement of the policy.",
+      "category": "permanent",
+      "irdai_code": "Excl01",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "both",
+  "portability": true
+}

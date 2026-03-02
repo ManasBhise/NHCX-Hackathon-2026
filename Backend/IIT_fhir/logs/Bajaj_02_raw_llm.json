@@ -1,0 +1,97 @@
+{
+  "organization": "Bajaj Allianz General Insurance Co. Ltd.",
+  "insurer_id": "113",
+  "uin": "BAJHLIA22169V012122",
+  "plan_name": "Rider Insurance Contract",
+  "plan_type": "family_floater",
+  "coverage_type": "health",
+  "sum_insured": "1000000",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "1800 209 0144",
+    "email": "bagichelp@bajajallianz.co.in",
+    "website": "www.bajajallianz.com"
+  },
+  "benefits": [
+    {
+      "name": "Tele Consultation Cover",
+      "category": "outpatient",
+      "description": "If the Insured/Insured member/s is suffering from any illness or injury he / she can consult Medical Practitioner/ Physician/Doctor in person from prescribed network centers or the Insured/Insured member/s can consult Medical Practitioner/ Physician/Doctor outside prescribed network centers up to the limit as specified under this Rider read with Base Policy Schedule.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Investigations Cover – Pathology & Radiology Expenses",
+      "category": "outpatient",
+      "description": "If the Insured/Insured member/s is suffering from any illness or injury he / she can avail the service for investigations for pathology or radiology from prescribed network centers or outside prescribed network centers up the limit as specified under this Rider read with Base Policy Schedule.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Annual Preventive Health Check-up Cover",
+      "category": "outpatient",
+      "description": "The Insured/Insured member/s can avail the free Preventive health checkup once in every Policy Year as per the list given below. The health check-up can be availed on a cashless basis in the prescribed list of hospitals or diagnostic centers. List of prescribed hospitals or diagnostic centers can be accessed from the Insurer’s website or the Health application. The free health check-up benefit must be availed within the Rider Period only, cover cannot be extended after the expiry of the Rider Period.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Tele Consultation Exclusion",
+      "description": "If the Tele Consultation is not availed in the policy year during the Rider Period, the benefit cannot be carried forward to the subsequent policy. Reimbursement of teleconsultation benefit is not covered.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Doctor Consultation Exclusion",
+      "description": "Other expenses of investigations, medicines, procedures or any medical, non-medical items are not covered. If the Doctor Consultation cover is not availed in the policy year the benefit cannot be carried forward to the subsequent policy year after renewal.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Investigations Exclusion",
+      "description": "If the Investigation cover is not availed in the respective policy year the benefit cannot be carried forward to the subsequent policy year after. Initial 30 days waiting period is applicable for investigations Cover- Pathology & Radiology expenses related to illness during the first year of Rider.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    },
+    {
+      "name": "Preventive Health Check-up Exclusion",
+      "description": "Preventive health check-up cannot be availed outside the prescribed list of hospitals or diagnostic centers. If the health check-up is not availed in the policy year during the Rider Period the benefit cannot be carried forward to the subsequent policy. Reimbursement of preventive health check-up expenses is excluded from the scope of the Rider.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

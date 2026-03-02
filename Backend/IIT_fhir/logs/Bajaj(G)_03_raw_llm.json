@@ -1,0 +1,101 @@
+{
+  "organization": "Bajaj Allianz General Insurance Co. Ltd.",
+  "insurer_id": "113",
+  "uin": "BAJHLGA22166V012122",
+  "plan_name": "Health Prime (Group) Rider",
+  "plan_type": "group",
+  "coverage_type": "health",
+  "sum_insured": "1000000",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "1800 209 0144",
+    "email": "bagichelp@bajajallianz.co.in",
+    "website": "www.bajajallianz.com"
+  },
+  "benefits": [
+    {
+      "name": "Tele Consultation Cover",
+      "category": "outpatient",
+      "description": "If the Insured Beneficiary and or Insured Member is suffering from any illness or injury he / she can consult Medical Practitioner/ Physician/Doctor in person from prescribed network centers or the Insured Beneficiary can consult Medical Practitioner/ Physician/Doctor outside prescribed network centers up to the limit as specified under this Rider read with Base Certificate of Insurance.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Doctor Consultation Cover",
+      "category": "outpatient",
+      "description": "If the Doctor consultation cover is not availed in the policy year under Rider issued under Base COI the benefit cannot be carried forward to the next year.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Investigations Cover – Pathology & Radiology Expenses",
+      "category": "outpatient",
+      "description": "If the Insured Beneficiary is suffering from any illness or injury he / she can avail the service for investigations for pathology or radiology from prescribed network centers or outside prescribed network centers up the limit as specified under this Rider read with Base Certificate of Insurance.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Annual Preventive Health Check-up Cover",
+      "category": "outpatient",
+      "description": "The Insured Beneficiary and or Insured Member can avail the free Preventive health checkup once in every Policy Year under Rider read with Base Certificate of Insurance. The health check-up can be availed on a cashless basis in the prescribed list of hospitals or diagnostic centers.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Tele Consultation Exclusion",
+      "description": "Teleconsultation benefit is not transferrable to any other Insured Member unless the Insured Member is covered under the Base COI & has not availed the benefit in the policy year.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Investigations Cover Exclusion",
+      "description": "If the Investigation cover is not availed in the respective policy year under Rider issued under Base COI the benefit cannot be carried forward to the next year.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Annual Preventive Health Check-up Exclusion",
+      "description": "Preventive health check-up cannot be availed outside the prescribed list of hospitals or diagnostic centers.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

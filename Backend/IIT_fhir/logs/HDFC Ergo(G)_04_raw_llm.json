@@ -1,0 +1,276 @@
+{
+  "organization": "HDFC ERGO General Insurance Company Limited",
+  "plan_name": "",
+  "plan_type": "individual | family_floater | group",
+  "coverage_type": "health",
+  "sum_insured": "",
+  "currency": "INR",
+  "benefits": [
+    {
+      "name": "Pre-Hospitalization Medical Expenses",
+      "category": "pre_hospitalization",
+      "description": "Covers medical expenses incurred during the 30 days immediately before hospitalization.",
+      "limit_amount": "30",
+      "limit_unit": "days",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Post-Hospitalization Medical Expenses",
+      "category": "post_hospitalization",
+      "description": "Covers medical expenses incurred up to 60 days from the date the insured person is discharged from the hospital.",
+      "limit_amount": "60",
+      "limit_unit": "days",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Domiciliary Hospitalization",
+      "category": "domiciliary",
+      "description": "Covers medical expenses incurred on domiciliary hospitalization of the insured.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Organ Donor Cover",
+      "category": "organ_donor",
+      "description": "Covers medical expenses for organ donor's hospitalization for harvesting of the donated organ.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Road Ambulance Cover",
+      "category": "ambulance",
+      "description": "Covers expenses incurred on road ambulance services if the insured person is required to be transferred to the nearest hospital following an emergency.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Hospital Cash",
+      "category": "other",
+      "description": "Covers a daily cash benefit for hospitalization as specified in the schedule of coverage.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Maternity Cover",
+      "category": "maternity",
+      "description": "Covers maternity expenses incurred during the policy period, subject to waiting periods and limits.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "48",
+      "waiting_period_unit": "months",
+      "is_optional": false
+    },
+    {
+      "name": "Pre and Post Natal Expenses",
+      "category": "maternity",
+      "description": "Covers medical expenses incurred during the pre and post natal period.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Critical Illness Benefit",
+      "category": "critical_illness",
+      "description": "Covers an increase in sum insured by 100% if diagnosed with critical illness, subject to waiting period.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "90",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Pre-existing Diseases",
+      "description": "Expenses related to the treatment of a pre-existing disease and its direct complications are excluded until the expiry of 48 months.",
+      "category": "permanent",
+      "waiting_period_value": "48",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "Specified Disease/Procedure Waiting Period",
+      "description": "Expenses related to the treatment of specified conditions are excluded until the expiry of 12 months.",
+      "category": "permanent",
+      "waiting_period_value": "12",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "30-day Waiting Period",
+      "description": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date are excluded.",
+      "category": "time_bound",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    },
+    {
+      "name": "Diagnostic Admission Expenses",
+      "description": "Expenses related to any admission primarily for diagnostic and evaluation purposes only.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Non-Related Diagnostic Expenses",
+      "description": "Any diagnostic expenses which are not related or not incidental to the current diagnosis and treatment.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Rest Cure and Rehabilitation",
+      "description": "Expenses related to any admission primarily for enforced bed rest and not for receiving treatment.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Obesity/Weight Control Treatment",
+      "description": "Expenses related to the surgical treatment of obesity/weight control.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Change-of-Gender Treatments",
+      "description": "Expenses related to any treatment for change of gender.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Cosmetic or Plastic Surgery",
+      "description": "Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an accident, burn(s) or cancer.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Hazardous or Adventure Sports",
+      "description": "Expenses related to any treatment arising from hazardous or adventure sports.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Breach of Law",
+      "description": "Expenses for treatment directly arising from or consequent to breach of law.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Alcoholism and Substance Abuse",
+      "description": "Treatment for alcoholism, drug or substance abuse or any addictive condition and consequences.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Non-Medical Expenses",
+      "description": "Non-medical expenses such as food charges, laundry charges, attendant charges, etc.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Alopecia and Baldness Treatment",
+      "description": "Any treatment and associated expenses for alopecia, baldness including corticosteroids.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Sterility and Infertility Treatment",
+      "description": "Expenses related to sterility and infertility.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Maternity Expenses",
+      "description": "Medical treatment expenses traceable to childbirth except ectopic pregnancy; expenses towards miscarriage unless due to an accident.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Investigative Treatments",
+      "description": "Investigative treatment for sleep-apnoea, general debility or exhaustion.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Circumcision",
+      "description": "Circumcisions unless necessitated by illness or injury.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Convalescence and Long-term Nursing Care",
+      "description": "Any convalescence, sanatorium treatment, private duty nursing or long-term nursing care.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Vaccination",
+      "description": "Vaccination including inoculation and immunisations except post animal bite treatment.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Unproven Treatments",
+      "description": "Expenses related to any unproven treatment, services and supplies.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "48",
+    "conditions": []
+  },
+  "network_type": "cashless | reimbursement | both",
+  "portability": true
+}

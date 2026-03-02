@@ -1,0 +1,214 @@
+{
+  "organization": "HDFC ERGO General Insurance Company Limited",
+  "plan_name": "Base Coverage",
+  "plan_type": "individual | family_floater",
+  "coverage_type": "health",
+  "sum_insured": "1500000",
+  "currency": "INR",
+  "benefits": [
+    {
+      "name": "Hospitalization Expenses",
+      "category": "inpatient",
+      "description": "Indemnity for medical expenses incurred during hospitalization due to illness or injury.",
+      "limit_amount": "1500000",
+      "limit_unit": "amount",
+      "sub_limits": [
+        {
+          "name": "Room Rent",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        },
+        {
+          "name": "ICU Charges",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Domiciliary Hospitalization",
+      "category": "domiciliary",
+      "description": "Indemnity for medical expenses incurred during domiciliary hospitalization prescribed by a medical practitioner.",
+      "limit_amount": "1500000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "AYUSH Treatment",
+      "category": "ayush",
+      "description": "Indemnity for medical expenses incurred for inpatient treatment in AYUSH hospitals.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Pre-Hospitalization Medical Expenses",
+      "category": "pre_hospitalization",
+      "description": "Indemnity for medical expenses incurred up to 60 days prior to hospitalization.",
+      "limit_amount": "60",
+      "limit_unit": "days",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Post-Hospitalization Medical Expenses",
+      "category": "post_hospitalization",
+      "description": "Indemnity for medical expenses incurred up to 180 days after discharge from the hospital.",
+      "limit_amount": "180",
+      "limit_unit": "days",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Organ Donor Expenses",
+      "category": "organ_donor",
+      "description": "Indemnity for medical expenses incurred for the organ donor's hospitalization for harvesting the donated organ.",
+      "limit_amount": "1500000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Emergency Air Ambulance",
+      "category": "ambulance",
+      "description": "Indemnity for expenses incurred for air ambulance transportation for emergency care.",
+      "limit_amount": "1500000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Pre-Existing Diseases",
+      "description": "Expenses related to the treatment of a pre-existing disease and its direct complications are excluded until the expiry of 36 months of continuous coverage.",
+      "category": "permanent",
+      "waiting_period_value": "36",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "Specified Disease/Procedure Waiting Period",
+      "description": "Expenses related to the treatment of specified conditions or surgeries are excluded until the expiry of 24 months of continuous coverage.",
+      "category": "permanent",
+      "waiting_period_value": "24",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "30-day Waiting Period",
+      "description": "Expenses related to the treatment of any illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an accident.",
+      "category": "time_bound",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    },
+    {
+      "name": "Cosmetic or Plastic Surgery",
+      "description": "Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Hazardous or Adventure Sports",
+      "description": "Expenses related to any treatment including but not limited to, para-jumping, rock climbing, mountaineering, rafting, motor racing.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Breach of Law",
+      "description": "Expenses for treatment directly arising from or consequent to any breach of law.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Excluded Providers",
+      "description": "Expenses incurred towards treatment in any hospital not recognized by the insurer.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Treatment for Alcoholism, Drug or Substance Abuse",
+      "description": "Expenses related to treatment for alcoholism, drug or substance abuse or any addictive condition.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Investigative Treatments",
+      "description": "Expenses related to investigative treatments for sleep-apnoea, general debility or exhaustion.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Vaccination",
+      "description": "Expenses related to vaccination including inoculation and immunisations except post animal bite treatment.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Non-Medical Expenses",
+      "description": "Expenses for non-medical items such as food charges, laundry charges, attendant charges, etc.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Outpatient Treatment",
+      "description": "Expenses related to treatment taken on an outpatient basis.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Unproven Treatments",
+      "description": "Expenses related to any unproven treatment, services and supplies for or in connection with any treatment.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Sterility and Infertility",
+      "description": "Expenses related to sterility and infertility treatments.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "0",
+    "max_age": "65",
+    "renewal_age": "70",
+    "pre_existing_waiting": "36",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

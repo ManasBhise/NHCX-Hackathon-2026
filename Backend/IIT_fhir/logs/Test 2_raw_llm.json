@@ -1,0 +1,49 @@
+{
+  "organization": "Edelweiss General Insurance Company Limited",
+  "insurer_id": "159",
+  "uin": "EDLHLIP21110V012021",
+  "plan_name": "Corona Rakshak Policy",
+  "plan_type": "individual",
+  "coverage_type": "health",
+  "sum_insured": "50000",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "1800 12000",
+    "email": "support@edelweissinsurance.com",
+    "website": "www.edelweissinsurance.com"
+  },
+  "benefits": [
+    {
+      "name": "COVID Cover",
+      "category": "inpatient",
+      "description": "Lump sum benefit equal to 100% of the Sum Insured shall be payable on positive diagnosis of COVID, requiring hospitalization for a minimum continuous period of 72 hours. This is onetime benefit applicable for the entire tenure of the Policy and shall terminate upon payment of this benefit.",
+      "limit_amount": "50000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Exclusions related to COVID",
+      "description": "Expenses related to any admission primarily for diagnostics and any diagnostic expenses which are not related or not incidental to the current diagnosis and treatment. Any diagnosis which is not related and not incidental to COVID is excluded. Any claim with respect to COVID manifested prior to commencement date of this policy or during the waiting period. Cover under this Policy shall cease if the Insured Person travels.",
+      "category": "permanent",
+      "irdai_code": null,
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

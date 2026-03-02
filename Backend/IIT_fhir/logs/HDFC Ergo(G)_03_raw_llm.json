@@ -1,0 +1,146 @@
+{
+  "organization": "HDFC ERGO General Insurance Company Limited",
+  "plan_name": "",
+  "plan_type": "individual | family_floater | group",
+  "coverage_type": "health",
+  "sum_insured": "",
+  "currency": "INR",
+  "benefits": [
+    {
+      "name": "In-Patient Hospitalization Expenses",
+      "category": "inpatient",
+      "description": "Covers room rent, boarding, and nursing charges restricted to Single AC Private Room.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [
+        {
+          "name": "Room Rent",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Pre-Hospitalization Medical Expenses",
+      "category": "pre_hospitalization",
+      "description": "Covers medical expenses incurred before hospitalization.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Post-Hospitalization Medical Expenses",
+      "category": "post_hospitalization",
+      "description": "Covers medical expenses incurred after hospitalization.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Outpatient Treatment Expenses",
+      "category": "outpatient",
+      "description": "Covers expenses incurred for medically necessary treatment of diseases.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Recovery Benefit",
+      "category": "other",
+      "description": "Covers sum insured if hospitalization exceeds 10 continuous days.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Reinstatement of Sum Insured",
+      "category": "other",
+      "description": "Reinstates sum insured for subsequent hospitalization during the policy year.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Vector Borne Diseases – Benefit",
+      "category": "other",
+      "description": "Covers hospitalization due to vector-borne diseases.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "30-day waiting period",
+      "description": "Expenses related to treatment of any illness within 30 days from the first policy commencement date are excluded.",
+      "category": "time_bound",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    },
+    {
+      "name": "Rest Cure, rehabilitation and respite care",
+      "description": "Expenses related to any admission primarily for enforced bed rest and not for receiving treatment.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Unproven Treatments",
+      "description": "Expenses related to any unproven treatment, services, and supplies.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Outpatient Treatment",
+      "description": "Any treatment taken on outpatient basis.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Non-Medical expenses",
+      "description": "Non-medical expenses such as food charges, laundry charges, etc.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless | reimbursement | both",
+  "portability": true
+}

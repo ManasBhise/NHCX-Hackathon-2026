@@ -1,0 +1,346 @@
+{
+  "organization": "Aditya Birla Health Insurance Co. Limited",
+  "insurer_id": "153",
+  "uin": "ADIHLGP22023V032122",
+  "plan_name": "Group Protect",
+  "plan_type": "group",
+  "coverage_type": "health",
+  "sum_insured": "10000000",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "1800 270 7000",
+    "email": "",
+    "website": "www.irdai.gov.in"
+  },
+  "benefits": [
+    {
+      "name": "OPD Expenses",
+      "category": "outpatient",
+      "description": "We shall indemnify the Reasonable and Customary Charges incurred towards Medically Necessary Treatment taken by the Insured Person during the Policy Period for an Illness, Injury if it is contracted or sustained by an Insured Person during the Policy Period up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy. We shall indemnify the Reasonable and Customary Charges incurred towards the medically required consultations, visit(s) to a doctor (Medical Certificate of Insurance, within Our Network only if opted which are incurred on an out-patient basis up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy. Any out-patient consultation which costs more than the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy. We shall indemnify the Reasonable and Customary Charges incurred towards the medically required diagnostics tests listed in the Policy Schedule / Certificate of Insurance, which are incurred on an out-patient basis up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy. Any out-patient diagnostic test which costs more than the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy. (c) Pharmacy Expenses: We shall indemnify the Reasonable and Customary Charges incurred towards the medically required pharmacy expenses which are incurred on an out-patient basis up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy. Any out-patient pharmacy expenses which cost more than the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Cancer Secure Cover",
+      "category": "critical_illness",
+      "description": "The Sum Insured for each Benefit / Stage of Cancer under this Benefit shall be as specified against that Benefit in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy. Additional Benefits mentioned under Sections II.2.1 to Section II.2.6 to Cancer Secure Cover can only be opted along with Option 2 of Cancer Secure Cover. Any claim paid for Additional Benefits mentioned under Sections II.2.1 to Section II.2.6 to Cancer Secure Cover cannot be renewed for the lives for which the claim(s) have been paid (except Section II.2.1 Second Opinion and / or Section II.2.3 Counselling Sessions). Limits for the Additional Benefits mentioned under Sections II.2.1 to Section II.2.6 to Cancer Secure Cover are over and above the Sum Insured of Cancer Secure Cover as specified Benefit in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy. If the Insured Person suffers from a covered Illness of the nature as specified below, under the Option opted for, during the Policy Period and while the Policy is in force, then We shall pay the percentage of the Sum Insured as specified for that covered Illness under the Option opted for, For the purpose of this Benefit, covered Illness shall mean Early Stage Cancer, or Major Stage Cancer or Advanced Stage Cancer as defined under this Benefit and as specified to be covered under the Options set out below. The coverage under this Benefit shall terminate for the Insured Person, on the occurrence of the earlier of the following: (a) Once a claim for Major Stage Cancer or Advanced Stage Cancer becomes admissible. (b) Death of the Insured Person. Our maximum liability under this Option during the lifetime of the Insured Person: 100% of the Sum Insured as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy. Maximum number of claims: Only one claim shall be admissible for either Major Stage Cancer or an Advanced Stage Cancer. iii) On the diagnosis of a Major Stage Cancer as defined below, 100% of the Sum Insured shall be payable. Once a claim for Major Stage Cancer becomes admissible, this cover shall terminate. A claim for an Early Stage Cancer shall not be payable on the diagnosis of a Major Stage Cancer. On the diagnosis of an Advanced Stage Cancer as defined below, 100% of the Sum Insured shall be payable. Once a claim for Advanced Stage Cancer becomes admissible, this cover shall terminate. A claim for either Early Stage Cancer or Major Stage Cancer shall not be payable on the diagnosis of an Advanced Stage Cancer.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Income Protect",
+      "category": "other",
+      "description": "We shall pay the monthly limit as specified for this Benefit in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy against this Benefit for each continuous and completed month, if the Insured Person is Hospitalized as an In-patient due to an Injury/Illness, in excess of 7 consecutive days and disables the Insured Person from engaging in activities of daily routine such as bathing and traveling, as a Only Salaried Individuals are eligible for coverage under this Benefit, where such Primary Occupation is evidenced by their ITR (Income Tax The Insured Person is employed on the direct payroll of an organization or entity having a registered office in India for a minimum of six Our liability to make any payment under this Benefit shall be in excess of a Deductible of number of days for each claim as specified in against this Benefit. The Deductible for the number of days as specified in Policy Schedule / certificate of Insurance commences from the 1st day of Inpatient Hospitalisation and subsequent days thereon satisfying the following a. Insured person is not able to engage in activities of daily routine such as bathing, traveling or performing duties of any employment or occupation owing to the same illness continuously for the number of deductible days as specified in Certificate of Insurance / Policy This Benefit shall be payable monthly for every 30 days of continuous disability of the Insured Person, upon completion of the Deductible, and until reinstatement of employment with the same or any other employer, whether confirmed or on probation or if the Insured Person has recovered to a stage where the Insured Person can engage in activities of daily routine.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "First Heart Attack of specified severity",
+      "category": "inpatient",
+      "description": "The first occurrence of heart attack or myocardial infarction, which means the death of a portion of the heart muscle as a result of inadequate A rise in cardiac biomarkers or Troponin T or I in absence of overt ischemic heart disease OR following an intra-arterial cardiac procedure.",
+      "limit_amount": "10000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Open Heart Replacement Or Repair Of Heart Valves",
+      "category": "inpatient",
+      "description": "The actual undergoing of open-heart valve surgery is to replace or repair one or more heart valves, as a consequence of defects in, the realization of surgery has to be confirmed by a specialist medical practitioner. Catheter based techniques including but not limited to, balloon Coronary Angioplasty is defined as percutaneous coronary intervention by way of balloon angioplasty with or without stenting for treatment.",
+      "limit_amount": "10000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Heart Transplant",
+      "category": "inpatient",
+      "description": "The actual undergoing of a transplant of human heart that resulted from irreversible end stage heart failure. The undergoing of a heart transplant evidence of right ventricular enlargement and the pulmonary artery pressure above 30 mm of Hg on Cardiac Cauterization. There must be permanent irreversible physical impairment to the degree of at least Class IV of the New York Heart Association Classification of cardiac diseases of the left side of the heart, congenital heart disease and any secondary cause are specifically excluded.",
+      "limit_amount": "10000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Cancer Assure Cover",
+      "category": "inpatient",
+      "description": "We shall indemnify the Reasonable and Customary Charges incurred towards medical treatments of the nature specified below, which are taken by the Insured Person during the Policy Period for a covered Illness of the nature specified below, provided that it is first diagnosed or first manifests itself during the Policy Period.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Cancer In-patient Hospitalization",
+      "category": "inpatient",
+      "description": "We shall cover the Medical Expenses incurred towards the Insured Person for one or more of the following arising out of an Insured Person's Hospitalization during the Policy Period caused solely and directly due to the covered Illness that is first diagnosed or first manifests itself during the Policy Period.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [
+        {
+          "name": "Room Rent",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        },
+        {
+          "name": "ICU Charges",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Day Care Treatment",
+      "category": "daycare",
+      "description": "We shall cover the Medical Expenses incurred towards the Day Care Treatment of the Insured Person, undertaken solely and directly due to a covered Illness as specified under Section II.6 (a) that is first diagnosed or first manifests itself during the Policy Period, up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "OPD Treatment",
+      "category": "outpatient",
+      "description": "OPD treatment is not covered under this Benefit.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Pre-hospitalization Medical Expenses",
+      "category": "pre_hospitalization",
+      "description": "We shall cover the Insured Person's Pre-hospitalization Medical Expenses incurred in respect of a covered Illness as specified under Section II.6 (a) that is first diagnosed or first manifests itself during the Policy Period on a reimbursement basis, up to the limits specified against this Benefit, for the number of days specified in the Policy Schedule / Certificate of Insurance.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Post-hospitalization Medical Expenses",
+      "category": "post_hospitalization",
+      "description": "We shall cover the Insured Person's Post-hospitalization Medical Expenses incurred following in respect of a covered Illness as specified under Section II.6 (a) that is first diagnosed or first manifests itself during the Policy Period on a reimbursement basis, up to the limits specified against this Benefit, for the number of days specified in the Policy Schedule / Certificate of Insurance.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Emergency Road Ambulance Cover",
+      "category": "ambulance",
+      "description": "We shall cover the costs incurred up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy, towards transportation of the Insured Person by road Ambulance to a nearest Hospital from the place of occurrence of an Emergency for treatment, where such Emergency is caused solely and directly due to a covered Illness as specified under Section II.6 (a) that is first diagnosed.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Follow Up care Post treatment",
+      "category": "other",
+      "description": "We shall cover the costs incurred up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy, towards medical examination of the Insured Person, twice in a Policy Year, provided that the treatment for the covered Illness has been accepted.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Hospital Cash Benefit",
+      "category": "other",
+      "description": "We shall pay the daily cash benefit as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy for each continuous and completed 24 hours of Hospitalization, if the Insured Person is Hospitalized in India for Medically Necessary Treatment of an Illness or Injury that is contracted or sustained by an Insured Person during the Policy Period.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Major Illnesses In-patient Hospitalization",
+      "category": "inpatient",
+      "description": "We shall cover the Medical Expenses incurred towards the Insured Person for one or more of the following arising out of an Insured Person's In-Patient Hospitalization during the Policy Period caused solely and directly due to the covered Major Illness that is first diagnosed or first manifests itself during the Policy Period.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [
+        {
+          "name": "Room Rent",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        },
+        {
+          "name": "ICU Charges",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "90",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Cardiac Indemnity In-patient Hospitalization",
+      "category": "inpatient",
+      "description": "We shall cover the Medical Expenses incurred towards the Insured Person for one or more of the following arising out of an Insured Person's In-patient Hospitalization during the Policy Period caused solely and directly due to a covered Illness that is first diagnosed or first manifests itself. Reasonable and Customary Charges incurred towards the Room Rent of a Hospital room and other boarding charges, up to the Single Private A/C Room category of the Hospital where the Insured Person is hospitalized; ICU Charges; Operation theatre expenses; Medical Practitioner's fees including fees of specialists and anaesthetists treating the Insured; Investigative tests or diagnostic procedures directly related to the covered Illness for which the Insured Person is Hospitalized; Medication applied as per the medical prescription issued by the treating Medical Practitioner while the Insured Person is Hospitalized for treatment of a covered Illness. The Hospitalization is towards Medically Necessary Treatment and follows the written advice of a Medical Practitioner.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [
+        {
+          "name": "Room Rent",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        },
+        {
+          "name": "ICU Charges",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Heart Diseases Cover",
+      "category": "critical_illness",
+      "description": "The Insured Person at their own expenses shall submit the following documents within 30 (thirty) days of the earliest of the date of first Certificate from attending Medical Practitioner confirming that the claim does not relate to any Pre-Existing Disease or any Illness or Injury which was diagnosed within the Initial Waiting Period Photocopy of discharge certificate/ card from the Hospital, if any.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Credit Protect",
+      "category": "other",
+      "description": "(a) Claim Form (in original) duly completed and signed as prescribed by Us (b) Photo ID and Age proof of Insured Person / Nominee (if Insured Person is not alive) (c) Claim intimation or claim reference number (if any) (e) Copies of consultation letters detailing the treatment taken immediately after Accident Loan disbursement letter along with payment record till the date of Accident Additional documents required basis nature of claim 1) Due to Accidental Death (AD) b) Attested copy of cause of death certificate issued by treating Medical Practitioner/ Hospital g) Copy of death summary if the Insured Person was Hospitalised Copy of indoor case papers with nursing sheet detailing medical history of the patient, treatment details and patient’s progress (where the Attested copy of disability certificate issued by civil surgeon of district Hospital mentioning the type and percentage of disability. Original photograph of the Insured Person reflecting the disablement or injured part for which the claim is made Copies of medical documents towards treatment taken during disability period, including discharge summary of the Hospital Copy of indoor case papers with nursing sheet detailing medical history of the patient, treatment details and patient’s progress (where the.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "In-patient treatment and day care procedures",
+      "description": "We shall not be liable to make any payment for any claim under Section II.1 of this Policy in respect of an Insured Person, directly or indirectly for, 1. In-patient treatment and day care procedures.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Naturopathy treatment(s)",
+      "description": "We shall not be liable to make any payment for any claim under Section II.1 of this Policy in respect of an Insured Person, directly or indirectly for, 2. Naturopathy treatment(s).",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Non Allopathic treatment",
+      "description": "We shall not be liable to make any payment for any claim under Section II.6 of this Policy in respect of an Insured Person, directly or indirectly for, Any Treatment other than for the covered Illness, ie, Cancer.",
+      "category": "permanent",
+      "irdai_code": "Excl14",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Primary Hospitalization for treatment of Adjuvant Chemo / Supportive chemo & Oral Chemo",
+      "description": "We shall not be liable to make any payment for any claim under Section II.6 of this Policy in respect of an Insured Person, directly or indirectly for, Any Treatment other than for the covered Illness, ie, Cancer.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Pre-Existing Disease",
+      "description": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of number of months of continuous coverage after the Date of inception of the first policy with insurer, as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy.",
+      "category": "permanent",
+      "irdai_code": "Excl01",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Specified disease / procedure waiting period",
+      "description": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy with Us. This exclusion shall not be applicable for claims arising due to an accident.",
+      "category": "time_bound",
+      "irdai_code": "Excl02",
+      "waiting_period_value": "24",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "First 30 Days Waiting Period",
+      "description": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided the same are covered.",
+      "category": "time_bound",
+      "irdai_code": "Excl03",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

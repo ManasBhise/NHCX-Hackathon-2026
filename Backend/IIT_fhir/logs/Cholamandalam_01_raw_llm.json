@@ -1,0 +1,97 @@
+{
+  "organization": "CHOLAMANDALAM MS GENERAL INSURANCE COMPANY LIMITED",
+  "insurer_id": "123",
+  "uin": "CHOHLIP21017V012122",
+  "plan_name": "FLEXI MAX PROTECT",
+  "plan_type": "individual",
+  "coverage_type": "critical_illness",
+  "sum_insured": "1000000",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "1800 208 5544",
+    "email": "customercare@cholams.murugappa.com",
+    "website": "www.cholainsurance.com"
+  },
+  "benefits": [
+    {
+      "name": "Diagnosis Benefit",
+      "category": "other",
+      "description": "If at any time during the currency of this Policy, the Insured Person is diagnosed as suffering from a Critical Illness (CI) listed and defined in the Policy for the first time, during the Policy Period mentioned in the Policy Schedule, the Company shall pay a Lumpsum Benefit equal to the Sum Insured specified in the Policy Schedule provided the critical illness is diagnosed after 90 days of commencement of the Policy.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "90",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Waiting Period Exclusion",
+      "description": "Any Critical Illness diagnosed within the first 90 days from the date of commencement of the policy.",
+      "category": "time_bound",
+      "irdai_code": "Excl03",
+      "waiting_period_value": "90",
+      "waiting_period_unit": "days"
+    },
+    {
+      "name": "General Exclusions",
+      "description": "This Policy does not provide for any loss resulting in whole or in part from, or expenses incurred in respect of: Any Critical Illness for which treatment, or advice was recommended by or received from a Medical practitioner.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Unproven/Experimental Treatments",
+      "description": "Any Critical Illness directly caused by any unproven/ experimental treatment, service and supplies for or in connection with any treatment.",
+      "category": "permanent",
+      "irdai_code": "Excl15",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Non-Registered Medical Practitioners",
+      "description": "Any Critical Illness based on certification/diagnosis/treatment from persons not registered as Medical.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Cosmetic or Plastic Surgery",
+      "description": "Any Critical Illness directly caused due to cosmetic or plastic surgery or any treatment to change the appearance unless for reconstruction following an Accident, Burn(s), or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.",
+      "category": "permanent",
+      "irdai_code": "Excl11",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Surgical Treatment of Obesity",
+      "description": "Any Critical Illness directly caused due to surgical treatment of obesity that does not fulfil all the below.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Sterility and Infertility",
+      "description": "Any Critical Illness directly caused by sterility and infertility.",
+      "category": "permanent",
+      "irdai_code": "Excl08",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

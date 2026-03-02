@@ -1,0 +1,225 @@
+{
+  "organization": "Care Health Insurance Limited",
+  "insurer_id": "IRDAI Reg. No.",
+  "uin": "CHIHLIP22223V012122",
+  "plan_name": "Senior Health Advantage",
+  "plan_type": "individual | family_floater | group",
+  "coverage_type": "health",
+  "sum_insured": "1000000",
+  "currency": "INR",
+  "premium_amount": "24,542",
+  "telecom": {
+    "phone": "",
+    "email": "",
+    "website": "https://www.careinsurance.com/smart-select-network-locator.html"
+  },
+  "benefits": [
+    {
+      "name": "In-patient Care",
+      "category": "inpatient",
+      "description": "The Company will indemnify the Insured Person for Medical Expenses incurred towards Hospitalization through Cashless or Reimbursement Facility, maximum up to the Sum Insured, as specified in the Policy Schedule, provided that the Hospitalization is for a Medically Necessary treatment as prescribed by a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges that are necessary.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Day Care Treatment",
+      "category": "daycare",
+      "description": "The Company will indemnify the Insured Person for Medical Expenses incurred on all Day Care Treatments through Cashless or Reimbursement Facility, maximum up to the Sum Insured, as specified in the Policy Schedule, provided that the period of treatment of the Insured Person in the Hospital/Day Care Centre does not exceed 24 hours, which would otherwise require an in-patient admission and such Day Care Treatments was prescribed in written, by a Medical Practitioner, and the Medical Expenses incurred are Reasonable and Customary Charges.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Domiciliary Hospitalization",
+      "category": "domiciliary",
+      "description": "The Company will indemnify the Insured Person, only through Reimbursement Facility, up to the Sum Insured, as specified in the Policy Schedule, for the Medical Expenses incurred towards Domiciliary Hospitalization, i.e., Coverage extended when Medically Necessary treatment is taken at home, subject to the conditions that the Domiciliary Hospitalization continues for a period exceeding 3 consecutive days. The Medical Expenses are incurred during the Policy Year. The Medical Expenses are Reasonable and Customary Charges which are necessarily incurred.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Organ Donor Cover",
+      "category": "organ_donor",
+      "description": "The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified in the Policy Schedule, for the Medical Expenses incurred for the organ donor, provided that the Organ donor is an eligible donor in accordance with The Transplantation of Human Organs Act, and the Insured Person is the recipient of the Organ so donated by the Organ Donor.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "AYUSH Treatment",
+      "category": "ayush",
+      "description": "The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the Sum Insured, as specified in the Policy Schedule, towards Medical Expenses incurred with respect to the Insured Person’s medical treatment undergone at any AYUSH Hospitals or health care facilities for any of the listed AYUSH treatments, provided that the Claim will be admissible under this Benefit only if the Claim is admissible under Benefit ‘In-patient Care’.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Pre-Hospitalization Medical Expenses",
+      "category": "pre_hospitalization",
+      "description": "The Company will indemnify the Insured Person for Medical Expenses incurred which are Medically Necessary, only through Reimbursement Facility, up to the Sum Insured, as specified in the Policy Schedule, provided that the Medical Expenses so incurred are related to the same Illness/Injury for which the Company has accepted the Insured Person’s Claim under Benefit ‘Hospitalization Expenses’ and subject to the conditions specified below: Under Pre-hospitalization Medical Expenses, for a period of 60 days immediately prior to the Insured Person’s date of admission to the Hospital.",
+      "limit_amount": "60",
+      "limit_unit": "days",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Post-Hospitalization Medical Expenses",
+      "category": "post_hospitalization",
+      "description": "The Company will indemnify the Insured Person for Medical Expenses incurred during the 90 days immediately after the Insured Person is discharged from the Hospital, provided that the Medical Expenses so incurred are related to the same Illness/Injury for which the Company has accepted the Insured Person’s Claim under Benefit ‘Hospitalization Expenses’.",
+      "limit_amount": "90",
+      "limit_unit": "days",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Room Rent",
+      "category": "inpatient",
+      "description": "The Policyholder/Insured Person shall bear the ratable proportion of the total Associate Medical Expenses (including applicable surcharge and taxes thereon) in the proportion of the difference between the Room Rent actually incurred and the Room Rent specified in the Policy Schedule or the Room Rent of the entitled Room Category to the Room Rent actually incurred. The Policy Schedule will specify the eligibility of Room Rent or Room Category applicable for the Insured Person under the Policy. The Room Rent or Room Category payable by the Company is limited to stay in a Hospitalization of the Insured Person. If the Policy Schedule states ‘up to 1% of the Sum Insured per day’ as eligible Room Rent, it means the maximum eligible Room Rent of the Insured Person payable by the Company is limited to 1% of the Sum Insured per day of Hospitalization. Any amount accrued under “No Claim Bonus (NCB)” or “Optional Benefit: No Claim Bonus Super (NCBS)”, shall not be considered under this “Room Rent” limit. The nomenclature of Room categories may vary from one hospital to the other.",
+      "limit_amount": "1",
+      "limit_unit": "percentage_of_si",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "ICU Charges",
+      "category": "inpatient",
+      "description": "The Policy Schedule will specify the Limit of ICU Charges applicable for the Insured Person under the Policy. The ICU Charges available under this Policy are as follows: i. If the Policy Schedule states ‘up to 2% of the Sum Insured per day’ as eligible ICU Charges per day of Hospitalization, it means the maximum eligible ICU charges of the Insured Person payable by the Company is limited to 2% of the Sum Insured per day of Hospitalization. ii. If the Policy Schedule states the eligibility of ICU Charges of the Insured Person as ‘No Sub-limit’, it means that there is no separate restriction on ICU Charges incurred towards stay in ICU during Hospitalization.",
+      "limit_amount": "2",
+      "limit_unit": "percentage_of_si",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Road Ambulance Cover",
+      "category": "ambulance",
+      "description": "The Company will indemnify the Insured Person, through Cashless or Reimbursement Facility, up to the specified limit/amount against this Benefit in the Policy Schedule, provided that the Medical Expenses so incurred are related to the Illness or Injury for which the Company has accepted the Insured Person’s Claim under Benefit ‘Hospitalization Expenses’. Such road ambulance transportation is offered by a Hospital or by an Ambulance service provider for the Insured Person’s necessary transportation; and Insured person, to the nearest Hospital; and/or Such Transportation is from one Hospital to another Hospital for the purpose of providing better Medical aid to the Insured Person subject to treating Medical.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Automatic Recharge",
+      "category": "other",
+      "description": "If a Claim is payable under the Policy, then the Company agrees to automatically make the re-instatement of up to the base Sum Insured once in a policy year which is valid for that The Recharge shall be utilized only after the base Sum Insured, applicable No Claim Bonus (NCB), Optional Benefit: No Claim Bonus Super and in case of Accidental Claim Optional Benefit: Additional Sum Insured for Accidental Hospitalization and in case of specified Critical Illnesses Claim Optional Benefit: Additional Sum Insured for Defined Critical Illnesses has been completely exhausted in that Policy Year. A Claim will be admissible under the Recharge only if the Claim is admissible under Benefit ‘Hospitalization Expenses’. The Sum Insured available under Automatic Recharge can only be utilized for Benefit ‘In-patient Care’ ‘Day Care Treatment’, ‘Domiciliary Hospitalization’, ‘Pre Hospitalization Medical Expenses and Post Hospitalization Medical Expenses’, ‘Road Ambulance Cover’. All Insured Person will be eligible to utilize the Recharged amount for any illness or Applicable ‘No Claim Bonus (NCB)’ and ‘Optional Benefit: No Claim Bonus Super’ shall Any unutilized Recharge cannot be carried forward to any subsequent Policy Year.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "No Claim Bonus (NCB)",
+      "category": "other",
+      "description": "At the end of each Policy Year, the Company will enhance the Sum Insured by 25% flat, on a cumulative basis, as a No Claim Bonus for each completed and continuous Policy Year, provided that no Claim has been paid by the Company in the expiring Policy Year, and In any Policy Year, the accrued No Claim Bonus, shall not exceed 100% of the Sum Insured available in the expiring Policy or renewed Policy, wherever Sum Insured is The No Claim Bonus shall be available on Floater basis and shall accrue only if no Claim has been made in respect of any Insured Person during the expiring Policy Year. The No Claim Bonus which is accrued during the claim-free Policy Year will only be available to those Insured Persons who were insured in such claim-free Policy Year and continue to be insured in the subsequent Policy Year; (iii) The entire No Claim Bonus will be forfeited if the Policy is not continued / renewed on or (iv) The No Claim Bonus shall be applicable on an annual basis subject to continuation of the.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Annual Health Check-up",
+      "category": "other",
+      "description": "On the Insured Person’s request, through Cashless Facility, the Company will arrange for the Insured Person’s Annual Health Check-up for the list of medical tests specified below at its Network to provide the services, in India, subject to the conditions specified below: a) This Benefit shall be available only once during a Policy Year per Insured Person; and b) This benefit does not reduce the Sum Insured.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Unlimited E-Consultation",
+      "category": "other",
+      "description": "The Company shall offer unlimited e-consultations with qualified General Physicians at our network during the Policy Year through any mode of communication (Voice/Video Call /Chat.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Other Value Added Services",
+      "category": "other",
+      "description": "Discount Connect: The Insured Person may access to Special rates for OPD, Diagnostics, and Pharmacy etc. through Network as available on the Company’s website.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Pre-Existing Diseases",
+      "description": "Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 12 months of continuous coverage after. In case of enhancement of sum insured the exclusion shall apply afresh to the extent of sum insured increase. If the Insured Person is continuously covered without any break as defined under the portability norms of the extant IRDAI (Health Insurance) Regulations, then waiting period for the same would be reduced to the extent of prior coverage.",
+      "category": "permanent",
+      "irdai_code": "Excl01",
+      "waiting_period_value": "12",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "30-day waiting period",
+      "description": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident, provided this exclusion shall not, however, apply if the Insured Person has Continuous Coverage for the referred waiting period is made applicable to the enhanced sum insured in the event of granting higher sum insured subsequently.",
+      "category": "time_bound",
+      "irdai_code": "Excl03",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless | reimbursement | both",
+  "portability": true
+}

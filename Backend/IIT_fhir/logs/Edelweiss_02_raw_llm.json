@@ -1,0 +1,47 @@
+{
+  "organization": "Edelweiss General Insurance Company Limited",
+  "plan_name": "Corona Rakshak Policy",
+  "plan_type": "individual",
+  "coverage_type": "health",
+  "sum_insured": "50000",
+  "currency": "INR",
+  "benefits": [
+    {
+      "name": "COVID Hospitalization Benefit",
+      "category": "inpatient",
+      "description": "Lump sum benefit equal to 100% of the Sum Insured shall be payable on positive diagnosis of COVID, requiring hospitalization for a minimum period.",
+      "limit_amount": "100",
+      "limit_unit": "percentage_of_si",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "15",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Diagnostic Admission Exclusion",
+      "description": "Expenses related to any admission primarily for diagnostics and any diagnostic expenses which are not related or not incidental to the current diagnosis and treatment.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Pre-existing Condition Exclusion",
+      "description": "Any claim with respect to COVID manifested prior to commencement date of this policy or during the waiting period.",
+      "category": "time_bound",
+      "waiting_period_value": "15",
+      "waiting_period_unit": "days"
+    }
+  ],
+  "eligibility": {
+    "min_age": "0",
+    "max_age": "65",
+    "renewal_age": "70",
+    "pre_existing_waiting": "15",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

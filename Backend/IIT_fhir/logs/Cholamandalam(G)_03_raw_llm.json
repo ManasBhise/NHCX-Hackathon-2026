@@ -1,0 +1,77 @@
+{
+  "organization": "CHOLAMANDALAM MS GENERAL INSURANCE COMPANY LIMITED",
+  "insurer_id": "123",
+  "uin": "CHOHLGP22025V012122",
+  "plan_name": "CHOLA MASHAK (MOSQUITO) RAKSHAK- GROUP",
+  "plan_type": "group",
+  "coverage_type": "health",
+  "sum_insured": "200000",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "1800 208 5544",
+    "email": "customercare@cholams.murugappa.com",
+    "website": "www.cholainsurance.com"
+  },
+  "benefits": [
+    {
+      "name": "Hospitalization Benefit",
+      "category": "inpatient",
+      "description": "Lump sum benefit up to 100% of the Sum Insured (excluding the amount paid under diagnosis cover referred the medical practitioner) of any of the following vector borne disease (s) if insured is hospitalized for a minimum period of seventy-two (72) consecutive hours at a Hospital following Medical Advice of a duly qualified Medical Practitioner.",
+      "limit_amount": "200000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "15",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Diagnosis Cover",
+      "category": "other",
+      "description": "2% of the sum insured shall be payable on positive diagnosis (through laboratory examination and confirmed by the medical practitioner) subject to policy terms and conditions. The insured is entitled for payments under “diagnosis cover” for each.",
+      "limit_amount": "4000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "General Exclusions",
+      "description": "Claim for any illness/disease other than for vector borne diseases covered under the policy.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Unproven Treatments",
+      "description": "Expenses related to any unproven treatment, services and supplies for or in connection with any treatment.",
+      "category": "permanent",
+      "irdai_code": "Excl15",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Hospitalization for less than 72 hours",
+      "description": "Hospitalization for less than a minimum period of seventy-two (72) consecutive hours.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "18",
+    "max_age": "65",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

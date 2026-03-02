@@ -1,0 +1,143 @@
+{
+  "organization": "Aditya Birla Health Insurance Co. Limited",
+  "insurer_id": "153",
+  "uin": "ADIPAIP21628V012021",
+  "plan_name": "Saral Suraksha Bima",
+  "plan_type": "individual",
+  "coverage_type": "accident",
+  "sum_insured": "1000000",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "1800 270 7000",
+    "email": "bimalokpal.bhubaneswar@ecoi.co.in",
+    "website": "www.irdai.gov.in"
+  },
+  "benefits": [
+    {
+      "name": "Death Benefit",
+      "category": "other",
+      "description": "The company shall pay the benefit equal to 100% of Sum Insured, specified in the policy schedule, on death of the insured person, due to an Injury sustained in an Accident during the Policy Period, provided that the Insured Person’s death occurs within 12 months from the date of the Accident. Where claim payment has been made owing to disappearance of insured person following an accident, if after the payment of accidental death claim, it is found that the insured person has survived the accident, then the policyholder has to refund the payment back to the company in consideration of the obligatory guarantee as provided during the claim.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Permanent Total Disablement Benefit",
+      "category": "other",
+      "description": "The company shall pay the benefit equal to 100% of Sum Insured, specified in the policy schedule, if an insured Person suffers Permanent Total Disablement of the nature specified below, solely and directly due to an Accident during the Policy Period, provided that the Permanent Total Disablement occurs within 12 months from the date of the Accident.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Hospitalisation Expenses due to Accident",
+      "category": "inpatient",
+      "description": "The Company shall indemnify medical expenses incurred for hospitalisation arising due to accident during the policy period, up to the limit of 10% of the base sum insured, specified in the policy schedule. The hospitalisation expenses shall cover the following: Room, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home, Anaesthesia, blood, oxygen, operation theatre charges, surgical appliances, medicines and drugs, costs towards diagnostics, diagnostic imaging modalities, and such other similar expenses. (Expenses on Hospitalisation for a minimum period of 24 hours are admissible. However, this time limit of 24 hours shall not apply when the treatment does not require hospitalisation as specified in the terms and conditions of policy contract, where the treatment is taken in the Hospital and the Insured is discharged on the same day.) Intensive Care Unit (ICU) / Intensive Cardiac Care Unit (ICCU) expenses accidental injury covered under the policy.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [
+        {
+          "name": "Ambulance Cover",
+          "limit_amount": "2000",
+          "limit_unit": "amount"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Expenses related to diagnostics",
+      "description": "Expenses related to any admission primarily for diagnostics and evaluation purposes.",
+      "category": "permanent",
+      "irdai_code": "Excl14",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Treatment not warranting hospitalization",
+      "description": "Expenses incurred for treatment of accidental injuries which does not warrant hospitalization.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Domiciliary Hospitalization and OPD treatment",
+      "description": "Any expenses incurred on Domiciliary Hospitalization and OPD treatment.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Food Charges",
+      "description": "FOOD CHARGES (OTHER THAN PATIENT'S DIET PROVIDED BY HOSPITAL)",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Oxygen Cylinder",
+      "description": "OXYGEN CYLINDER (FOR USAGE OUTSIDE THE HOSPITAL)",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Ambulance Collar",
+      "description": "AMBULANCE COLLAR",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Ambulance Equipment",
+      "description": "AMBULANCE EQUIPMENT",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Blanket/Warmer Blanket",
+      "description": "BLANKET/WARMER BLANKET",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Documentation Charges",
+      "description": "DOCUMENTATION CHARGES/ADMINISTRATIVE EXPENSES",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

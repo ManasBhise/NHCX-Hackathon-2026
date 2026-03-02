@@ -1,0 +1,241 @@
+{
+  "organization": "Future Generali India Insurance Company Limited",
+  "plan_name": "",
+  "plan_type": "individual | family_floater",
+  "coverage_type": "health",
+  "sum_insured": "7500000",
+  "currency": "INR",
+  "benefits": [
+    {
+      "name": "Hospitalization Expenses",
+      "category": "inpatient",
+      "description": "Medical Expenses necessarily incurred for hospitalization in India for Medically Necessary Treatment required due to an Illness or Injury.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [
+        {
+          "name": "Room Rent",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        },
+        {
+          "name": "ICU Charges",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Medical Treatment Abroad",
+      "category": "inpatient",
+      "description": "Medical Expenses incurred by the Insured Person for treatment outside India.",
+      "limit_amount": "50",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "20",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Emergency Ambulance Expenses",
+      "category": "ambulance",
+      "description": "Reimbursement for reasonable and customary charges for ambulance services for transportation to the nearest hospital.",
+      "limit_amount": "50000",
+      "limit_unit": "no_limit",
+      "sub_limits": [
+        {
+          "name": "Air Ambulance",
+          "limit_amount": "500000",
+          "limit_unit": "amount"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "OPD Treatment",
+      "category": "outpatient",
+      "description": "Reimbursement for medical expenses incurred on OPD treatment for illness, injury, or maternity.",
+      "limit_amount": "80",
+      "limit_unit": "percentage_of_si",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Dental Treatment",
+      "category": "dental",
+      "description": "Reimbursement for dental expenses including fillings, root canal treatment, and dentures.",
+      "limit_amount": "70",
+      "limit_unit": "percentage_of_si",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "6",
+      "waiting_period_unit": "months",
+      "is_optional": false
+    },
+    {
+      "name": "Pre-Hospitalization Medical Expenses",
+      "category": "pre_hospitalization",
+      "description": "Reimbursement for medical expenses incurred up to 60 days prior to hospitalization.",
+      "limit_amount": "60",
+      "limit_unit": "days",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Post-Hospitalization Medical Expenses",
+      "category": "post_hospitalization",
+      "description": "Reimbursement for medical expenses incurred up to 180 days after discharge from hospitalization.",
+      "limit_amount": "180",
+      "limit_unit": "days",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Domiciliary Hospitalization Expenses",
+      "category": "domiciliary",
+      "description": "Reimbursement for medical expenses incurred during domiciliary hospitalization for a continuous period of at least 3 days.",
+      "limit_amount": "10",
+      "limit_unit": "percentage_of_si",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Maternity Expenses",
+      "category": "maternity",
+      "description": "Reimbursement for maternity expenses incurred for delivery, subject to certain conditions.",
+      "limit_amount": "100000",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "24",
+      "waiting_period_unit": "months",
+      "is_optional": false
+    },
+    {
+      "name": "Organ Donor Expenses",
+      "category": "organ_donor",
+      "description": "Reimbursement for medical expenses incurred for organ donor treatment when the Insured Person is the recipient.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Day Care Treatment Expenses",
+      "category": "daycare",
+      "description": "Reimbursement for medical expenses incurred for day care treatments.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Accidental Hospitalization",
+      "category": "inpatient",
+      "description": "Increase in sum insured by 25% for hospitalization due to an accident.",
+      "limit_amount": "25",
+      "limit_unit": "percentage_of_si",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Child Vaccination Benefits",
+      "category": "other",
+      "description": "Reimbursement for vaccination expenses for children up to 12 years of age.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Newborn Baby Expenses",
+      "category": "other",
+      "description": "Reimbursement for medical expenses incurred for the newborn baby if a maternity claim is accepted.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Pre-existing Diseases",
+      "description": "Waiting period of 2 years is applicable from the date of inception of the Policy.",
+      "category": "time_bound",
+      "waiting_period_value": "730",
+      "waiting_period_unit": "days"
+    },
+    {
+      "name": "Treatment of Illnesses in USA and Canada",
+      "description": "Costs incurred for treatments in USA and Canada are excluded unless specified otherwise.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Pre-Existing Disease",
+      "description": "Expenses related to the treatment of a pre-existing Disease and its direct complications shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first policy.",
+      "category": "permanent",
+      "waiting_period_value": "24",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "Specified Disease/Procedure Waiting Period",
+      "description": "Expenses related to the treatment of the listed conditions; surgeries/treatments shall be excluded until the expiry of 24/48 months of continuous coverage after the date of inception of the first policy.",
+      "category": "permanent",
+      "waiting_period_value": "24",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "30 Days Waiting Period",
+      "description": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident.",
+      "category": "time_bound",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "24",
+    "conditions": []
+  },
+  "network_type": "both",
+  "portability": true
+}

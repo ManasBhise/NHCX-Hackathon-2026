@@ -1,0 +1,254 @@
+{
+  "organization": "Edelweiss General Insurance Company Limited",
+  "plan_name": "Edelweiss HealthPlus Insurance",
+  "plan_type": "individual | family_floater",
+  "coverage_type": "health",
+  "sum_insured": "1000000",
+  "currency": "INR",
+  "benefits": [
+    {
+      "name": "In Patient Hospitalization",
+      "category": "inpatient",
+      "description": "Coverage for hospitalization in a hospital on the advice of a medical practitioner.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [
+        {
+          "name": "Room Rent",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        },
+        {
+          "name": "ICU Charges",
+          "limit_amount": "",
+          "limit_unit": "no_limit"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Pre-Hospitalization Medical Expenses",
+      "category": "pre_hospitalization",
+      "description": "Medical expenses incurred during a predefined number of days preceding hospitalization.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Post-Hospitalization Medical Expenses",
+      "category": "post_hospitalization",
+      "description": "Medical expenses incurred during a predefined number of days immediately after discharge from the hospital.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Day Care Treatment",
+      "category": "daycare",
+      "description": "Coverage for medical expenses incurred for day care treatment.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Domiciliary Hospitalization",
+      "category": "domiciliary",
+      "description": "Coverage for medical expenses incurred for domiciliary hospitalization.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Emergency Ambulance",
+      "category": "ambulance",
+      "description": "Coverage for ambulance charges incurred for transportation to the nearest hospital.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Organ Donor Cover",
+      "category": "organ_donor",
+      "description": "Coverage for medical expenses incurred for an organ donor's treatment.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Maternity Cover",
+      "category": "maternity",
+      "description": "Coverage for medical expenses related to pregnancy and childbirth.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "12",
+      "waiting_period_unit": "months",
+      "is_optional": false
+    },
+    {
+      "name": "Double Sum Insured for Critical Illness",
+      "category": "inpatient",
+      "description": "Double the basic sum insured which is specified in the policy as opted.",
+      "limit_amount": "100",
+      "limit_unit": "percentage_of_si",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "90",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    },
+    {
+      "name": "Room Rent Capping",
+      "category": "inpatient",
+      "description": "Eligibility of room rent or room rent category applicable for the insured under the policy schedule.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [
+        {
+          "name": "Room Rent",
+          "limit_amount": "1",
+          "limit_unit": "percentage_of_si"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "AYUSH Treatment",
+      "category": "ayush",
+      "description": "Coverage for AYUSH treatments.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Pre-existing Conditions",
+      "description": "Coverage is not available for pre-existing conditions during the waiting period.",
+      "category": "permanent",
+      "waiting_period_value": "36",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "Cosmetic Surgery",
+      "description": "Cosmetic or plastic surgery is not covered.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Pre-Existing Diseases",
+      "description": "Expenses related to the treatment of a pre-existing disease are excluded until the expiry of 36 months of continuous coverage.",
+      "category": "permanent",
+      "waiting_period_value": "36",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "Specified Disease/Procedure Waiting Period",
+      "description": "Expenses related to the treatment of listed conditions shall be excluded until the expiry of 24 months of continuous coverage.",
+      "category": "time_bound",
+      "waiting_period_value": "24",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "30-Day Waiting Period",
+      "description": "Expenses related to the treatment of any illness within 30 days are excluded, except claims arising due to an accident.",
+      "category": "time_bound",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    },
+    {
+      "name": "Food Charges",
+      "description": "Food charges other than patient's diet provided by hospital.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Oxygen Cylinder",
+      "description": "Oxygen cylinder for usage outside the hospital.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Ambulance Collar",
+      "description": "Ambulance collar not covered.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Ambulance Equipment",
+      "description": "Ambulance equipment not covered.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Documentation Charges",
+      "description": "Documentation charges/administrative expenses not covered.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Prescription Charges",
+      "description": "Expenses related to prescription on discharge not covered.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Miscellaneous Charges",
+      "description": "Incidental expenses/misc. charges not explained.",
+      "category": "permanent",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "18",
+    "max_age": "65",
+    "renewal_age": "70",
+    "pre_existing_waiting": "36",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

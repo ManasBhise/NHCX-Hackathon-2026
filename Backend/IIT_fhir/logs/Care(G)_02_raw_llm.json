@@ -1,0 +1,192 @@
+{
+  "organization": "Care Health Insurance Limited",
+  "insurer_id": "IRDAI Reg. No. not found",
+  "uin": "CHIHMGP22132V012122",
+  "plan_name": "Grameen Care Plus - Micro insurance Product",
+  "plan_type": "individual | family_floater | group",
+  "coverage_type": "health",
+  "sum_insured": "",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "",
+    "email": "bimalokpal.bhubaneswar@ecoi.co.in",
+    "website": "www.irda.gov.in"
+  },
+  "benefits": [
+    {
+      "name": "Hospitalization Expenses",
+      "category": "inpatient",
+      "description": "If an Insured Member is diagnosed with an Illness or suffers an Injury (including pre-existing diseases covered from the inception of the Policy subject to exclusions as per Clause-4) which requires the Insured Member to be admitted in a Hospital in India, which should be Medically Necessary, during the Cover Year, the Company will indemnify the Insured member for Medical Expenses incurred on Hospitalization up to the Coverage amount specified in the Certificate of Insurance provided that the Hospitalization and the Medical Expenses incurred are Reasonable and Customary Charges that were necessarily incurred.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [
+        {
+          "name": "Room Rent",
+          "limit_amount": "1",
+          "limit_unit": "percentage_of_si"
+        },
+        {
+          "name": "ICU Charges",
+          "limit_amount": "2",
+          "limit_unit": "percentage_of_si"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Day Care Treatment",
+      "category": "daycare",
+      "description": "The Company will indemnify the Insured member for Medical Expenses incurred on Day Care Treatment up to the Coverage amount specified in the Certificate of Insurance provided that: a) the Day Care Treatment is listed as per the Annexure-I to Policy Terms & Conditions; and b) the period of treatment of the Insured Member in a Hospital does not exceed 24 hours; and c) the Day Care Treatment was taken on the advice of a Medical Practitioner; and d) the Medical Expenses incurred are Reasonable and Customary Charges that were necessarily incurred.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Pre-hospitalization Medical Expenses",
+      "category": "pre_hospitalization",
+      "description": "The Company will indemnify the Medical Expenses up to the Coverage amount specified in the Certificate of Insurance provided that is incurred for the Insured Member: As Pre-hospitalization Medical Expenses, for a period of 1 day immediately prior to the Insured Member’s date of admission to the Hospital provided that the Company shall not be liable to make payment for any Pre-hospitalization Medical Expenses that were incurred before the Cover Start Date unless it is continuation of Policy for the Insured.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Post-hospitalization Medical Expenses",
+      "category": "post_hospitalization",
+      "description": "As Post-hospitalization Medical Expenses, for a maximum period of 5 days immediately following the date of the Insured Member’s discharge from Hospital. Provided that the Medical Expenses relate to the Illness/Injury for which the Company has accepted the Insured Member’s Claim and which falls within the Cover Year.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Maternity Expenses",
+      "category": "maternity",
+      "description": "The Company will indemnify for the Medical Expenses incurred in respect of the Hospitalization of the Insured Member up to the Coverage amount during the Cover Year for treatment taken in a Hospital arising from pregnancy including Normal Delivery / Caesarean/ Miscarriage and / or abortion induced by accident or other medical emergency. Specific Conditions applicable to this Benefit: The Company shall be liable to make payment under this Benefit, only if the Insured Member who has delivered the child is the Primary Insured Member or the Primary Insured Member’s spouse and over the age of eighteen (18) years of age. Claims under this benefit are admissible only after the completion of waiting period of 9 months. Coverage under this Benefit is not available in case the Insured Member’s age is greater than 45 years. The Company shall cover pre-natal and post-natal expenses under this benefit, provided that the condition necessitates treatment in a Hospital and the Insured Member is hospitalized. Claim in respect of only first two living children will be considered in respect of any one insured member covered under the policy or any renewal thereof.",
+      "limit_amount": "",
+      "limit_unit": "",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "9",
+      "waiting_period_unit": "months",
+      "is_optional": false
+    },
+    {
+      "name": "Accidental Death",
+      "category": "other",
+      "description": "It is a condition precedent to the Company’s liability under this Benefit that the following event within 30 days of the event giving rise to the Claim under this Benefit: Medical reports giving the details of the Accident, nature of Injury and the details of treatment provided, Admission and Death Summary, Accident Report, Bank details of the claimant seeking compensation.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Permanent Total Disablement",
+      "category": "other",
+      "description": "If the Primary Insured Member and/or his/her Spouse suffers an Injury during the Cover Year, which directly results in any of the following Insured Events within twelve calendar this Benefit in the Certificate of Insurance: Documents to be submitted for any Claim under ‘Permanent Total Disablement’: It is a condition precedent to the Company’s liability under this Benefit that the following event within 30 days of the event giving rise to the Claim under this Benefit: Hospital Authorities Accident Report, Copy of F.I.R (First Information Report) (if applicable) Details of treatment taken by the patient/injured after accident, Medical Bills and A newspaper cutting about accident (if available) Bank details of the claimant seeking compensation.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Permanent Partial Disablement",
+      "category": "other",
+      "description": "If the Primary Insured Member and/or his/her Spouse suffers an Injury during the Cover Year, which directly results in any of the following Insured Events within twelve calendar this Benefit in the Certificate of Insurance: Documents to be submitted for any Claim under ‘Permanent Partial Disablement’: It is a condition precedent to the Company’s liability under this Benefit that the following event within 30 days of the event giving rise to the Claim under this Benefit: Hospital Authorities Accident Report, Copy of F.I.R (First Information Report) (if applicable) Details of treatment taken by the patient/injured after accident, Medical Bills and A newspaper cutting about accident (if available) Bank details of the claimant seeking compensation.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "30-day waiting period",
+      "description": "Expenses related to the treatment of any illness within 30 days from the first policy commencement date shall be excluded except claims arising due to an accident. This exclusion shall not, however, apply if the Insured Member has Continuous Coverage for more than twelve months. The referred waiting period is made applicable to the enhanced sum insured in the event of granting higher sum insured subsequently.",
+      "category": "time_bound",
+      "irdai_code": "Excl03",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    },
+    {
+      "name": "Rest Cure, rehabilitation and respite care",
+      "description": "Expenses related to any admission primarily for enforced bed rest and not for receiving treatment. This also includes: Expenses related to the surgical treatment of obesity that does not fulfill all the below.",
+      "category": "permanent",
+      "irdai_code": "Excl05",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Change-of-Gender treatments",
+      "description": "Expenses related to any treatment, including surgical management, to change.",
+      "category": "permanent",
+      "irdai_code": "Excl07",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Cosmetic or plastic Surgery",
+      "description": "Expenses for cosmetic or plastic surgery or any treatment to change appearance unless for reconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to remove a direct and immediate health risk to the insured.",
+      "category": "permanent",
+      "irdai_code": "Excl08",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Alcoholism, drug or substance abuse",
+      "description": "Expenses related to treatment for Alcoholism, drug or substance abuse or any addictive condition.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Unproven Treatments",
+      "description": "Expenses related to any unproven treatment, services and supplies for or in connection with any treatment.",
+      "category": "permanent",
+      "irdai_code": "Excl16",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Maternity",
+      "description": "Medical treatment expenses traceable to childbirth (including complicated deliveries and caesarean sections incurred during hospitalization) except ectopic pregnancy; Expenses towards miscarriage (unless due to an accident) and lawful medical.",
+      "category": "permanent",
+      "irdai_code": "Excl18",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless | reimbursement | both",
+  "portability": true
+}

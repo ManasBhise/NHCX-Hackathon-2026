@@ -1,0 +1,62 @@
+Yes, you are correct. The hackathon expected output IS the NRCeS IG v6.5.0 InsurancePlanBundle. There is no separate "hackathon format." The problem statement literally says "Include validation against NRCeS-defined NHCX profiles" — that is the InsurancePlanBundle profile at https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlanBundle. The example at Bundle-InsurancePlanBundle-example-01 is the gold standard reference.
+
+What exactly to check for compliance (no BS, no hallucination)
+Based on the StructureDefinition cardinality table I fetched from the official IG and the official example, here is the exact checklist:
+
+A. Bundle Level (InsurancePlanBundle profile)
+Check	Cardinality	What to look for
+Bundle.meta.profile	should have	Must declare "https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlanBundle"
+Bundle.type	1..1 fixed	Must be exactly "collection"
+Bundle.timestamp	-	Should be present
+Bundle.entry	1..*	Must have at least InsurancePlan entry. Organization entry also expected (referenced by ownedBy)
+entry.fullUrl	each entry	Must be urn:uuid: format
+B. InsurancePlan (NRCeS InsurancePlan profile)
+Check	Cardinality	What to look for
+meta.profile	should have	"https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlan"
+identifier	1..1	Required. Must have system + value
+status	1..1	active / draft / retired
+type	1..1	Must use ndhm-insuranceplan-type CodeSystem. coding needs system (1..1), code (1..1), display (1..1)
+name	1..1	Plan name string
+period	1..1	Must have start (and ideally end)
+ownedBy	1..1	Reference to Organization. Must use urn:uuid: format in a collection Bundle (not Organization/xxx)
+administeredBy	0..1	Same reference format
+coverage	1..*	At least one required
+plan	0..* (S)	Must-support — should be present with costs
+C. Coverage entries
+Check	What to look for
+coverage.type	1..1 CodeableConcept. coding.system = http://snomed.info/sct, coding.code + display from ndhm-coverage-type ValueSet
+coverage.benefit	1..* each coverage must have benefits
+coverage.benefit.type	1..1. coding.system = http://snomed.info/sct, code from ndhm-benefit-type ValueSet (45 specific codes, not just the broad category code)
+coverage.benefit.limit	0..* — for day-limited benefits (pre/post hospitalization), should have limit.value with Quantity
+coverage.extension (Claim-Condition)	0..* — conditions for claiming this coverage
+coverage.benefit.extension (Claim-Condition)	0..* — can also appear at benefit level per official example
+D. Claim-Exclusion extensions (on InsurancePlan)
+Check	What to look for
+URL	https://nrces.in/ndhm/fhir/r4/StructureDefinition/Claim-Exclusion
+category sub-extension	Should use ndhm-claim-exclusion CodeSystem coding when possible (e.g., Excl01 = Pre-Existing Diseases), or at minimum valueCodeableConcept.text
+statement sub-extension	valueString with the exclusion description
+item sub-extension	0..* optional — specific excluded conditions (SNOMED coded)
+E. Plan section
+Check	What to look for
+plan.identifier	Should have use: "official", value: plan name
+plan.type	ndhm-plan-type CodeSystem: 01=Individual, 02=Individual Floater, 03=Group
+plan.generalCost.cost	Sum insured as Money (value + currency: "INR")
+plan.specificCost.category	SNOMED coded — should use specific codes (Room: 224663004, ICU: 309904001, Ambulance: 49122002, etc.)
+plan.specificCost.benefit.type	SNOMED coded — matching the category
+plan.specificCost.benefit.cost	Has type.coding.code (e.g. "fullcoverage", "deductible") and value (Quantity with value + unit)
+F. Organization
+Check	What to look for
+meta.profile	"https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization"
+identifier	Should have type with ndhm-identifier-type-code CodeSystem (e.g., ROHINI), plus system + value
+name	Required
+G. Reference format rule
+Critical: In a collection Bundle, when fullUrl uses urn:uuid:, all Reference.reference fields pointing to resources in the same Bundle must use urn:uuid: — not relative references like Organization/xxx.
+
+What the jury will likely evaluate
+Does the JSON parse as valid FHIR R4? (Pydantic model validation)
+Does it conform to InsurancePlanBundle profile? (meta.profile, structure, required fields)
+Are the correct NRCeS CodeSystems used? (ndhm-insuranceplan-type, ndhm-plan-type, ndhm-claim-exclusion, SNOMED)
+Quality of extraction — Are benefits, exclusions, limits actually populated from the PDF?
+Validation reporting — Does the tool tell you what's wrong?
+Human review workflow — Can a human correct the output?
+Code quality / reusability — Is it open-source ready?

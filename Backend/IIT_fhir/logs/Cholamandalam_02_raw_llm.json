@@ -1,0 +1,57 @@
+{
+  "organization": "CHOLAMANDALAM MS GENERAL INSURANCE COMPANY LIMITED",
+  "insurer_id": "123",
+  "uin": "CHOHLIP21068V012021",
+  "plan_name": "Corona Rakshak Policy, Chola",
+  "plan_type": "individual",
+  "coverage_type": "health",
+  "sum_insured": "50000",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "1800 208 5544",
+    "email": "customercare@cholams.murugappa.com",
+    "website": "www.cholainsurance.com"
+  },
+  "benefits": [
+    {
+      "name": "COVID Cover",
+      "category": "inpatient",
+      "description": "Lump sum benefit equal to 100% of the Sum Insured shall be payable on positive diagnosis of COVID, requiring hospitalization for a minimum continuous period of 72 hours. The positive diagnosis of COVID shall be from a Medical Practitioner registered with the Medical Council. Payment will be made only on Hospitalisation for a minimum continuous period of 72 hours following positive diagnosis. This is a one-time benefit applicable for the entire tenure of the Policy and shall terminate upon payment of this benefit.",
+      "limit_amount": "50000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "15",
+      "waiting_period_unit": "days",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Pre-existing diseases",
+      "description": "The Company shall not be liable to make any payment under the policy, in respect of any expenses incurred in respect of any diagnosis which is not related and not incidental to COVID.",
+      "category": "permanent",
+      "irdai_code": "Excl01",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Waiting period for COVID",
+      "description": "The Company shall not be liable for any claim arising for COVID within 15 days from the first policy commencement date.",
+      "category": "time_bound",
+      "irdai_code": "Excl03",
+      "waiting_period_value": "15",
+      "waiting_period_unit": "days"
+    }
+  ],
+  "eligibility": {
+    "min_age": "18",
+    "max_age": "65",
+    "renewal_age": "",
+    "pre_existing_waiting": "",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}

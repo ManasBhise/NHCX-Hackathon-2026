@@ -1,0 +1,352 @@
+{
+  "organization": "Bajaj Allianz General Insurance Co. Ltd.",
+  "insurer_id": "113",
+  "uin": "BAJHLIP23020V012223",
+  "plan_name": "Global Health Care",
+  "plan_type": "individual | family_floater | group",
+  "coverage_type": "health",
+  "sum_insured": "1000000",
+  "currency": "INR",
+  "premium_amount": "",
+  "telecom": {
+    "phone": "1800 209 0144 / 1800 209 5858",
+    "email": "bagichelp@bajajallianz.co.in",
+    "website": "www.bajajallianz.com"
+  },
+  "benefits": [
+    {
+      "name": "In-patient Hospitalization Treatment",
+      "category": "inpatient",
+      "description": "If You are advised Hospitalization within India by a Medical Practitioner as defined under Policy because of Illness or Accidental Bodily Injury sustained or contracted during the Policy Period, then We will pay You, Reasonable and Customary Medical Expenses incurred subject to i. Room rent and Boarding expenses as provided by the Hospital/Nursing Home without any sub limit ii. If admitted in ICU, the Company will pay up to actual ICU expenses provided by Hospital. iii. Nursing Expenses as provided by the Hospital ix. Relevant laboratory diagnostic tests, X-ray and such similar expenses that are medically necessary prescribed x. Emergency Inpatient Hospitalization for Dental Treatment arising from an Accident.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [
+        {
+          "name": "Room Rent",
+          "limit_amount": "Single Private Air Conditioned Room",
+          "limit_unit": "amount"
+        },
+        {
+          "name": "ICU Charges",
+          "limit_amount": "At Actual",
+          "limit_unit": "amount"
+        }
+      ],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Pre-Hospitalization Medical Expenses",
+      "category": "pre_hospitalization",
+      "description": "The Medical Expenses incurred during the 60 days immediately before You were Hospitalized, provided that: Such Medical Expenses were incurred for the same Illness/Injury for which subsequent Hospitalization was required, and We have accepted an Inpatient Hospitalization claim under Inpatient Hospitalization Treatment.",
+      "limit_amount": "60",
+      "limit_unit": "days",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Post-Hospitalization Medical Expenses",
+      "category": "post_hospitalization",
+      "description": "The Medical Expenses incurred during the 180 days immediately after You were discharged post Hospitalization provided that: Such costs are incurred in respect of the same Illness/Injury for which the earlier Hospitalization was required, and We have accepted an Inpatient Hospitalization claim under Inpatient Hospitalization Treatment.",
+      "limit_amount": "180",
+      "limit_unit": "days",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Local (Road) Ambulance",
+      "category": "ambulance",
+      "description": "We will pay the reasonable cost, specified in the Policy Schedule, incurred on an ambulance offered by a healthcare or ambulance service provider for transferring You to the nearest Hospital with adequate Emergency. We will also reimburse the expenses incurred on an ambulance offered by a healthcare or ambulance service provider for transferring You from the Hospital where You were admitted initially to another Hospital with higher Claim under this section shall be payable by Us only when: ii. We have accepted Your Claim under 'In-patient Hospitalization Treatment' or 'Day Care Procedures' section of Subject otherwise to the terms, conditions and exclusions of the Policy.",
+      "limit_amount": "Up to Sum Insured",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Ayurvedic / Homeopathic Hospitalization Expenses",
+      "category": "inpatient",
+      "description": "If You are Hospitalized for not less than 24 hrs, in an Ayurvedic / Homeopathic Hospital which is a government Hospital or in any institute recognized by government and/or accredited by Quality Council of India/National Accreditation Board on Health on the advice of a Medical Practitioner because of Illness or Accidental Bodily Injury In-patient Treatment- Medical Expenses for Ayurvedic and Homeopathic treatment: Room rent, boarding expenses, Ayurvedic and Homeopathic treatment procedures. Our maximum liability is up to In-patient Hospitalization Sum Insured. The claim will be admissible under the Policy provided that, the Illness/Injury requires Inpatient admission and the procedure performed on the Insured cannot be carried out on out-patient basis.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Air Ambulance",
+      "category": "ambulance",
+      "description": "We will pay for ambulance transportation in an airplane or helicopter for Emergency life threatening health conditions which require immediate and rapid ambulance transportation from the site of first occurrence of the Illness /Accident to the nearest Hospital. The claim would be reimbursed up to the limits specified in the Policy Schedule provided that We have accepted an Inpatient Hospitalization claim under Inpatient Hospitalization Treatment. Return transportation to the client’s home by air ambulance is excluded.",
+      "limit_amount": "",
+      "limit_unit": "no_limit",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Mental Illness Treatment",
+      "category": "inpatient",
+      "description": "We will pay the Customary and Reasonable expenses for In-patient treatment of Mental Illness (as specified under Annexure IV), provided this treatment is availed in a recognized psychiatric unit of a Hospital, up to Sum Insured as The above coverage is subject to fulfilment of following conditions: a. Mental Illness treatment is only covered where patient is diagnosed and treated by a psychiatrist, clinical b. The Hospitalization is for Medically Necessary Treatment. d. The treatment should be taken in Mental Health Establishment either wholly or partly meant for the care of persons with mental Illness, where persons with mental Illness are admitted for treatment.",
+      "limit_amount": "1000000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Day Care Treatment",
+      "category": "daycare",
+      "description": "We will pay You the medical expenses as listed under Section C, Part B,I-1 - In-patient Hospitalization Treatment for Day Care Procedures / Surgeries taken as an Inpatient in a Hospital or Day Care Centre but not in the.",
+      "limit_amount": "Up to Sum Insured",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Rehabilitation",
+      "category": "inpatient",
+      "description": "Rehabilitation is a treatment that combines therapies such as physical, occupational and speech therapy. We will pay You up to the limits specified in the Policy Schedule for the cost of In-patient Rehabilitation provided a. it is carried out by a Medical Practitioner specializing in rehabilitation; and b. it is carried out in a licensed rehabilitation Hospital or unit; c. We have accepted an Inpatient Hospitalization claim for the Insured under In Patient Hospitalization Treatment and rehabilitation starts within 14 days of discharge from Hospital following acute medical and/or surgical treatment d. the treatment could not be carried out on an out-patient basis.",
+      "limit_amount": "50,000",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    },
+    {
+      "name": "Emergency treatment outside area of cover",
+      "category": "other",
+      "description": "We will pay the Customary and Reasonable expenses, up to the limit specified in the Policy Schedule, incurred for treatment of medical emergencies which occur during business or holiday trips outside Your area of cover. Cover is provided for up to six weeks per trip within the Sum Insured limit. It includes treatment required due to an Accident Treatment by a Doctor must start within 24 hours of the Emergency event.",
+      "limit_amount": "Up to Sum Insured",
+      "limit_unit": "amount",
+      "sub_limits": [],
+      "copay_percent": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": "",
+      "is_optional": false
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Pre-Existing Diseases",
+      "description": "Expenses related to the treatment of a Pre-Existing Disease (PED) and its direct complications shall be excluded until the expiry of 36 months of continuous coverage after the date of inception of the first Global Health Care Policy.",
+      "category": "permanent",
+      "irdai_code": "Excl01",
+      "waiting_period_value": "36",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "Specified disease/procedure waiting period",
+      "description": "Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of 24 months of continuous coverage after the date of inception of the first Global Health Care Policy with Us.",
+      "category": "permanent",
+      "irdai_code": "Excl02",
+      "waiting_period_value": "24",
+      "waiting_period_unit": "months"
+    },
+    {
+      "name": "30-day waiting period",
+      "description": "Expenses related to the treatment of any Illness within 30 days from the first Policy commencement date shall be excluded except claims arising due to an Accident, provided the same are covered.",
+      "category": "permanent",
+      "irdai_code": "Excl03",
+      "waiting_period_value": "30",
+      "waiting_period_unit": "days"
+    },
+    {
+      "name": "Dietary Supplements",
+      "description": "Dietary supplements and substances that can be purchased without prescription, including but not limited to Vitamins, minerals and organic substances unless prescribed by a Medical Practitioner as part of Hospitalization claim or Day Care Treatment.",
+      "category": "permanent",
+      "irdai_code": "Excl14",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Unproven Treatments",
+      "description": "Expenses related to any unproven treatment, services and supplies for or in connection with any treatment. Unproven Treatments are treatments, procedures or supplies that lack significant medical documentation.",
+      "category": "permanent",
+      "irdai_code": "Excl16",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Maternity",
+      "description": "Medical Treatment Expenses traceable to childbirth (including complicated deliveries and caesarean sections incurred during Hospitalization) except ectopic pregnancy. Expenses towards miscarriage (unless due to an Accident) and lawful medical termination of pregnancy during.",
+      "category": "permanent",
+      "irdai_code": "Excl18",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Dental Treatment",
+      "description": "Any Dental Treatment that comprises of cosmetic surgery, dentures, dental prosthesis, dental implants, orthodontics, surgery of any kind unless as a result of Accidental Bodily Injury to natural teeth and also requiring Hospitalization unless specified.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Inpatient Care Not Warranted",
+      "description": "Medical expenses where Inpatient care is not warranted and does not require supervision of qualified nursing.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "War and Terrorism",
+      "description": "War, invasion, acts of foreign enemies, hostilities (whether war be declared or not), civil war, commotion, unrest. Any Medical expenses incurred due to Act of Terrorism will be covered under the Policy.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Non-Allopathic Treatment",
+      "description": "Treatment for any other system other than modern medicine (allopathy).",
+      "category": "permanent",
+      "irdai_code": "Excl14",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "External Medical Equipment",
+      "description": "External medical equipment of any kind used at home as post Hospitalization care including cost of instrument used in the treatment of Sleep Apnoea Syndrome (C.P.A.P), Continuous Peritoneal Ambulatory Dialysis (C.P.A.D).",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Intentional Self-Injury",
+      "description": "Intentional self-Injury (including but not limited to the use or misuse of any intoxicating drugs or alcohol).",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Vaccination",
+      "description": "Vaccination or inoculation unless forming a part of post bite treatment or if medically necessary and forming a part of treatment recommended by the treating Medical Practitioner.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Circumcision",
+      "description": "Circumcision unless required for the treatment of Illness or Accidental bodily Injury.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Chemical Contamination",
+      "description": "Treatment for any medical conditions arising directly or indirectly from chemical contamination, radioactivity.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Alternate Treatment",
+      "description": "Alternate/ Complementary treatment, with the exception of those treatments shown in the Table of Benefits.",
+      "category": "permanent",
+      "irdai_code": "Excl14",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Complications from Excluded Treatment",
+      "description": "Expenses incurred because of complications directly caused by an Illness, Injury or treatment for which cover is excluded or limited under Your plan.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Consultations by Family Members",
+      "description": "Consultations performed and any drugs or treatments prescribed by You, Your spouse, parents or children.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Hair Loss Treatment",
+      "description": "Investigations into and treatment for loss of hair, including hair replacement unless the loss of hair is due to cancer treatment.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Medical Error",
+      "description": "Treatment required as a result of medical error.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Non-Prescription Products",
+      "description": "Products that can be purchased without a Doctor’s prescription, except where a specific benefit covering these costs appears in the Table of Benefits.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Sleep Disorders",
+      "description": "Treatment of sleep disorders, including insomnia, narcolepsy, snoring and bruxism, except medically necessary Inpatient treatment for obstructive sleep apnoea.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Travel Costs",
+      "description": "Travel costs to and from medical facilities (including parking costs) for treatment, except when covered under 'Local (Road) ambulance', 'Medical evacuation' and 'Medical repatriation' benefits.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    },
+    {
+      "name": "Tumour Marker Testing",
+      "description": "Tumour marker testing, except for medically necessary testing during the investigation or treatment of cancer.",
+      "category": "permanent",
+      "irdai_code": "",
+      "waiting_period_value": "",
+      "waiting_period_unit": ""
+    }
+  ],
+  "eligibility": {
+    "min_age": "",
+    "max_age": "",
+    "renewal_age": "",
+    "pre_existing_waiting": "36",
+    "conditions": []
+  },
+  "network_type": "cashless",
+  "portability": true
+}
